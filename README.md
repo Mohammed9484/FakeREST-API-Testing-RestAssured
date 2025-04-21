@@ -26,8 +26,8 @@ FakeREST-Automation/
 - RestAssured
 - TestNG
 - Maven
-- RestAssured (optional for API testing)
-- Extent Reports / Allure (optional for reporting)
+- RestAssured (
+- Extent Reports / Allure Reports
 
 ---
 
@@ -77,7 +77,6 @@ Reports will be generated in the `/reports` directory. You can integrate ExtentR
 ## 🧪 Test Coverage
 
 - 🔗 **API Endpoints** – Validate RESTful API response codes and payloads
-- 🖥️ **(Optional)** UI Interaction – Automate fake data management via web UI (if any)
 - ✅ Assertion validation using TestNG
 
 ---
