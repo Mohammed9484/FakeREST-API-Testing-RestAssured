@@ -1,6 +1,6 @@
-# 🤖 FakeREST API Automation Testing with Selenium, TestNG & Maven
+# 🤖 FakeREST API Automation Testing with RestAssured, TestNG & Maven
 
-This project demonstrates **automation testing** for the [FakeREST API](https://fakerestapi.azurewebsites.net/) using **Selenium WebDriver**, **TestNG**, and **Maven**. It includes API validation and UI automation (if applicable), with integration-ready project structure and reports.
+This project demonstrates **automation testing** for the [FakeREST API](https://fakerestapi.azurewebsites.net/) using **RestAssured**, **TestNG**, and **Maven**. It includes API validation and UI automation (if applicable), with integration-ready project structure and reports.
 
 ---
 
@@ -10,7 +10,7 @@ This project demonstrates **automation testing** for the [FakeREST API](https://
 FakeREST-Automation/
 ├── src/
 │   ├── main/java/         # Application logic (if any)
-│   └── test/java/         # TestNG tests & Selenium scripts
+│   └── test/java/         # TestNG tests & RestAssured scripts
 │       └── tests/
 ├── testng.xml             # Test suite configuration
 ├── pom.xml                # Maven dependencies and plugins
@@ -23,7 +23,7 @@ FakeREST-Automation/
 ## 🧰 Technologies Used
 
 - Java
-- Selenium WebDriver
+- RestAssured
 - TestNG
 - Maven
 - RestAssured (optional for API testing)
@@ -49,23 +49,6 @@ FakeREST-Automation/
 - ChromeDriver or WebDriver setup
 
 ---
-
-## ⚙️ Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/fakerest-selenium-testng.git
-cd fakerest-selenium-testng
-```
-
-2. Import into your IDE as a Maven project.
-
-3. Install dependencies:
-
-```bash
-mvn clean install
-```
 
 ---
 
