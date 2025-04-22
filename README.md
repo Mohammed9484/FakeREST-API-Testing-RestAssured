@@ -9,7 +9,7 @@ This project demonstrates **automation testing** for the [FakeREST API](https://
 ```
 FakeREST-Automation/
 ├── src/
-│   ├── main/java/         # Application logic (if any)
+│   ├── main/java/         
 │   └── test/java/         # TestNG tests & RestAssured scripts
 │       └── tests/
 ├── testng.xml             # Test suite configuration
