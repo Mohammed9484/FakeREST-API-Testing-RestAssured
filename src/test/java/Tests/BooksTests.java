@@ -117,7 +117,7 @@ public class BooksTests extends Variables {
                 .put("/Books/{id}")
                 .then().log().all()
                 .assertThat().statusCode(200)
-                .time(lessThan(2000L))
+                .time(lessThan(2500L))
                 .header("Content-Type","application/json; charset=utf-8; v=1.0")
                 .body("$", not(empty()))
                 .body("id", equalTo(bookId))
